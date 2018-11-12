@@ -69,9 +69,21 @@ ex) `<a href="mailto:example@mail.address">`
     <meta name="description" content="竹中の練習サイトです"><!-- このhtmlについての説明 -->
   </head>
   <body><!-- 文章はbodyタグに -->
-    <img src="./img/path.jpg" alt="画像説明">
-    <h1>見出し</h1>
-    <p>文章</p>
+    <header>
+      <nav><!-- ナビゲーション部分 -->
+        <!-- ul, li などでリストを入れたりする -->
+      </nav>
+    </header>
+    
+    <section><!-- 内容のひとまとまりをsectionで区切る -->
+      <img src="./img/path.jpg" alt="画像説明">
+      <h1>見出し</h1>
+      <p>文章</p>
+    </section>
+    
+    <footer>
+      <p>著作権表示など</p>
+    </footer>
   </body>
 </html>
 ```
